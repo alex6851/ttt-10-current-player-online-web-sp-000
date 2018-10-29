@@ -5,7 +5,7 @@ board.each do |move|
   counter +=1
   end
  end
- counter
+return  counter
 end
 
 def current_player(board)
