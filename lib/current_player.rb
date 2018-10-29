@@ -2,12 +2,12 @@ require 'pry'
 
 def turn_count(board)
   counter = 0
-board.each do |move|
+  board.each do |move|
   binding.pry
-  if move == 'X' || move == 'O'
-  binding.pry
+    if move == 'X' || move == 'O'
+      binding.pry
       counter +=1
-  end
+    end
  end
 return counter
 end
